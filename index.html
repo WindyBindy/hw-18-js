@@ -1,0 +1,55 @@
+<!DOCTYPE html><html lang=en><meta charset=UTF-8><meta name=viewport content="width=device-width, initial-scale=1.0"><title>CRUD Students</title><link rel=stylesheet href=/hw-18/hw-18-js.7c1ba3e0.css><body>
+  <div class=container>
+     <div class=backdrop>
+            <div class=modal>
+                <h2 class=modal-title>edit student data</h2>
+                <form class=modal-form>
+                    <input name=name placeholder="Ім'я">
+                    <input name=age placeholder=Вік>
+                    <input name=course placeholder=Курс>
+                    <input name=skills placeholder=Навички>
+                    <input name=email placeholder=Email>
+                    <input name=isEnrolled placeholder=Статус>
+                    <button class=create-btn>Create!</button>
+                </form>
+            </div>
+        </div>
+    <h1>Список студентів</h1>
+    <button id=get-students-btn>Отримати студентів</button>
+    <table id=students-table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Ім'я</th>
+          <th>Вік</th>
+          <th>Курс</th>
+          <th>Навички</th>
+          <th>Email</th>
+          <th>Статус</th>
+          <th>Дії</th>
+        </tr>
+      </thead>
+      <tbody class=list-of-students>
+       
+      </tbody>
+    </table>
+
+    <h2>Додати нового студента</h2>
+    <form id=add-student-form>
+      <label>Ім'я: <input id=name required name=name></label>
+      <label>Вік: <input type=number id=age required name=age></label>
+      <label>Курс: <input id=course required name=course></label>
+      <label>Навички (через кому): <input id=skills required name=skills></label>
+      <label>Email: <input type=email id=email required name=email></label>
+      <label>Записаний: <input type=checkbox id=isEnrolled name=isEnrolled></label>
+      <button>Додати студента</button>
+    </form>
+  </div>
+
+  
+  <script type=module src=/hw-18/hw-18-js.bdf6b609.js></script>
+
+
+
+
+
